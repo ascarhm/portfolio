@@ -1,0 +1,502 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+header {
+    background: url(main_visual_13-0x0.jpg);
+    width: 1470px;
+    height: 800px;
+}
+
+.header-logo {
+    float: left;
+    margin-top: 50px;
+    margin-left: 7%;
+}
+   
+
+
+.header-logo img {
+    width: 266px;
+    height: 72pxx;
+    
+}
+
+.menu-list li {
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+   
+   
+
+    
+    
+}
+
+.menu-list  li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Gill Sans Std Book", sans-serif;
+
+    l
+    
+}
+
+.menu-list {
+    margin-top: 75px;
+    margin-right: 7%;
+    margin-left: 495px;
+
+    display: inline-block;
+    
+    
+}
+
+.menu-list li:hover {
+    
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration: underline 2px;
+    
+    
+}
+
+.text-wrapper {
+    padding: 115px 0;
+    width: 1470px;
+    background-color: #f6f6f6;
+    font-family: "Helvetica Neue", Helvetica, Arial, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    letter-spacing: 0.1em;
+    color: rgb(19, 25, 27);
+    font-weight: 400;
+    text-align: center;
+}
+
+.heading {
+    font-size: 44px;
+    line-height: 75px;
+    font-weight: normal;
+}
+
+.p1 {
+    padding-top: 63px;
+}
+
+.p2 {
+    padding-top: 30px;
+}
+
+.p3 {
+    padding-top: 30px;
+}
+
+
+.heading2 {
+    margin: 40px 0;
+}
+
+.heading2 img {
+    width: 211px;
+    height: 54px;
+}
+
+.text-wrapper p {
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+    padding-left: 580px;
+}
+
+.container {
+    padding: 100px 320px;
+}
+
+.heading3 {
+    font-size: 30px;
+    font-family: "Gill Sans Std Book";
+    letter-spacing: 0.1em;
+    float: left;
+    padding-bottom: 80px;
+
+    
+}
+
+.heading3 img {
+    width: 70px;
+    padding: 8px 0;
+}
+
+.more {
+    float: right;
+    font-size: 14px;
+    border: 1px solid #13191b;
+    text-align: center;
+    background: url(button-arrow@2x.png) no-repeat;
+    background-size: 8px 17px;
+    background-position: 130px 50%;
+    letter-spacing: 0.1em;
+  
+  
+}
+
+
+
+.more a {
+    font-family: "Gill Sans Std Book";
+    color: #13191b;
+    text-decoration: none;
+    display: block;
+    
+    padding: 15px 50px;
+
+    
+}
+
+.more a:hover {
+    background-color: #13191b;
+    color: #FFFFFF;
+    background-image: url(button-arrow-hover@2x.png) ;
+    background-repeat: no-repeat; 
+    background-position: 130px 50%;
+    background-size: 8px 17px;
+}
+
+.product-list {
+    padding-bottom: 115px;
+    float: left;
+}
+
+.list {
+    float: left;
+    padding-top: 60px;
+    margin-right: 20px;
+    width: 250px;
+}
+
+.list img {
+    width: 250px;
+}
+
+.list a {
+    text-decoration: none;
+    color: rgb(19, 25, 27);
+    font-size: 20px;
+}
+
+h3 {
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-top: 40px;
+    width: 190px;
+    letter-spacing: 0.1em;
+    line-height: 22px;
+    height: 60px;
+}
+.news-heading{
+    color: #13191b;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    line-height: 31px;
+    
+   
+    
+}
+
+.news-list {
+    text-decoration: none;
+    display: inline-block;
+    height: 320px;
+    width: 100%;
+    display:flex;
+    
+
+    
+}
+    
+
+
+.news-text {
+    color: #656c6e;
+    font-size: 13px;
+    padding-top: 25px;
+    width: 470px;
+    line-height: 22px;
+   
+    
+}
+
+.date {
+    color: #656c6e;
+    font-size: 12px;
+    padding-top: 15px;
+    
+}
+
+.news-photo img {
+    width: 322px;
+    
+}
+
+.news {
+    width: 500px;
+    
+    height: 280px;
+    padding-left: 30px;
+    line-height: 20px;
+    
+     
+}
+
+
+
+.product-wrapper {
+    height: 1310px;
+    width: 1470px;
+    
+    
+}
+
+.news-wrapper {
+    background-color: #f6f6f6;
+    width: 1470px;
+    height: 2200px;
+}
+
+.share {
+    font-size: 14px;
+    height: 60px;
+    display: inline-block;
+    margin: 0;
+    padding-top: 30px;
+    font-family: "gill sans std book";
+    letter-spacing: 1px;
+}
+
+.twitter {
+    float: left;
+    border: 1px solid #70bdd3;
+    
+    margin-right: 30px;
+}
+
+.facebook {
+    float: left;
+    border: 1px solid #4871A9;
+    
+    margin-right: 30px;
+    
+}
+
+.bookmark {
+    float: left;
+    border: 1px solid #2f9bcd;
+    
+}
+
+.facebook a {
+    color: #4871A9;
+    display: block;
+    padding: 15px;
+    
+
+}
+
+.share a {
+    text-decoration: none;
+    display: block;
+}
+
+.twitter a {
+    color: #70bdd3;
+    padding: 15px;
+}
+
+.bookmark a {
+    color: #2f9bcd;
+    padding: 15px;
+}
+
+.share-wrapper {
+    
+    height: 115px;
+    text-align: center;
+}
+
+.facebook a:hover {
+    background-color: #4871a9;
+    color: white;
+
+}
+
+.twitter a:hover {
+    background-color: #70bdd3;
+    color: white;
+}
+
+.bookmark a:hover {
+    background-color: #2f9bcd;
+    color: white;
+}
+
+.menu {
+    background-color: #939899;
+    height: 90px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.menu-list2 {
+   display: inline-block;
+   padding: 40px 0;
+}
+
+.menu-list2 li {
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    
+}
+
+.menu-list2 a {
+    color: white;
+    text-decoration: none;
+    font-family: "Gill Sans Std Book", sans-serif;
+
+}
+
+footer {
+    height: 150px;
+    background-color: #656c6e;
+    
+}
+
+
+.footer-left {
+    float: left;
+    padding: 25px 0px;
+    padding-left: 340px;
+}
+.footer-left img {
+    width: 90px;
+
+}
+
+.footer-right {
+    color: white;
+    font-size: 9px;
+    padding: 70px 0;
+    padding-left: 700px;
+    letter-spacing: 0.1em;
+
+    
+}
+
+.footer-left a:hover {
+    opacity: 0.8;
+}
