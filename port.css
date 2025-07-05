@@ -1,0 +1,674 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+ list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content:'';
+   content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+   margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+
+
+
+header {
+    position: relative;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: pink;
+    opacity: 0.5;
+  }
+
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    background-size: cover;
+    background-position: center center;
+    
+    animation: image-switch-animation 25s infinite;
+  }
+
+  .src1 {
+    background-image: url(S__22183948.jpg);
+  }
+  .src2 {
+    background-image: url(S__22183946.jpg);
+  }
+  .src3 {
+    background-image: url(S__22159362.jpg);
+  }
+  .src4 {
+    background-image: url(S__22183944.jpg);
+  }
+  .src5 {
+    background-image: url(S__22183945.jpg);
+  }
+  
+
+  @keyframes image-switch-animation {
+    0%{ opacity: 0;}
+    5%{ opacity: 1;}
+    25%{ opacity: 1;}
+    30%{ opacity: 0;}
+    100%{ opacity: 0;}
+  }
+  
+  .image:nth-of-type(1) {
+    animation-delay: 0s;
+  }
+  .image:nth-of-type(2) {
+    animation-delay: 5s;
+  }
+  .image:nth-of-type(3) {
+    animation-delay: 10s;
+  }
+  .image:nth-of-type(4) {
+    animation-delay: 15s;
+  }
+  .image:nth-of-type(5) {
+    animation-delay: 20s;
+  }
+
+
+.name {
+    font-size: 80px;
+    letter-spacing: 10px;
+    position: absolute;
+    color: white;
+    left: 2%;
+    width: 100%;
+    top: 3%;
+    line-height: 50px;
+    font-family: "Courier";
+    width: 55%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.name h1{
+    
+    width: 100%;
+}
+
+.name p {
+    
+    text-align: right;
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+
+.menu-list li{
+   list-style: none;
+}
+
+.menu-list li a {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  font-family:  'Impact', sans-serif;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 30px;
+  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.menu-list li:hover {
+    opacity: 0.8;
+
+}
+
+.about-wrapper h1 {
+   font-size: 50px;
+   letter-spacing: 5px;
+   font-family: "Playfair Display", serif;
+   font-weight: bold;
+   color: #6B4226;
+   
+}
+
+.about-wrapper {
+    
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.profile img {
+    border-radius: 50%;
+    height: 300px;
+    margin: 60px 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
+    
+}
+
+.profile {
+    padding: 150px 0;
+    
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.profile p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    color: #a9a9a9;
+}
+
+.skills-wrapper {
+    text-align: center;
+    padding: 0;
+}
+
+.skills-wrapper h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #6B4226;
+}
+
+.profile-text {
+    text-align: justify;
+    padding-left: 60px;
+    
+}
+
+.profile-name  {
+    font-size: 20px;
+    height: 30px;
+    padding: 400px 90px 0;
+    position: absolute;
+    
+    
+}
+
+.profile-name p {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.skills {
+  padding: 150px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.skills img  {
+  width: 40%;
+  padding-bottom: 30px;
+}
+
+.skill {
+  text-align: center;
+  width: 47%;
+
+}
+
+.skill h2 {
+  font-size: 40px;
+}
+
+.p1{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.p2 {
+  width: 70%;
+  padding-top: 30px;
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  margin: 0 auto;
+  padding: 15px;
+
+  
+}
+
+.works-wrapper {
+  text-align: center;
+}
+
+.works-wrapper h1{
+  font-size: 50px;
+   letter-spacing: 5px;
+   font-family: "Playfair Display", serif;
+   font-weight: bold;
+   color: #6B4226;
+}
+
+.works-contents img {
+  width: 45%;
+  margin: 2% 2%;
+  border: solid 1px #c0c0c0;
+}
+
+.works-contents img:hover {
+  opacity: 0.5;
+}
+
+.works-contents {
+  text-align: center;
+  padding: 150px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-wrapper {
+  text-align: center;
+}
+
+.contact-wrapper h1{
+  font-size: 50px;
+   letter-spacing: 5px;
+   font-family: "Playfair Display", serif;
+   font-weight: bold;
+   color: #6B4226;
+   padding-bottom: 150px;
+}
+
+.contact-wrapper p {
+  font-size: 20px;
+}
+
+.mail {
+  padding-bottom: 150px;
+  padding-top: 20px;
+}
+
+.mail-button {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #a15c38;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  
+}
+
+.mail-button i {
+  margin-right: 2px;
+}
+
+.mail-button:hover {
+  background-color: #814529;
+  transform: translateY(-2px);
+
+}
+
+footer {
+    
+    color: #666;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+  
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 400px;
+  }
+
+  .name {
+    font-size: 40px;
+    line-height: 1.2;
+    width: 90%;
+    top: 3%;
+    left: 6%;
+  }
+
+  .name p {
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 3px;
+  }
+
+  .menu-list {
+    list-style: none;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .menu-list.active {
+    display: flex;
+  }
+
+  .menu-list li {
+    margin: 10px 0;
+    font-size: 4px;
+  }
+
+  .menu-list li a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95); /* ← 背景暗くする */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+  .menu-overlay.active {
+    display: flex;
+  }
+
+
+
+  .hamburger {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 1000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .hamburger.active {
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .about-wrapper {
+    padding-bottom: 0;
+    
+  }
+
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px; /* ← 間隔を調整するのに便利 */
+    padding: 100px 0;
+    
+  }
+   
+
+  .profile-name {
+   padding: 0;
+   margin-top: 220px;
+  }
+
+  .profile-name, .profile-text {
+    width: 100%;
+  }
+
+  .profile-name h2 {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+
+  .profile img {
+    height: 200px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .profile-name p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .profile p {
+    font-size: 16px;
+    padding: 0 15px;
+  
+  }
+
+  .about-wrapper h1 {
+    font-size: 36px;
+  }
+
+  .profile-text {
+    padding: 0 10px;
+    font-size: 16px;
+    margin-top: 60px;
+  
+  }
+
+  .skills-wrapper {
+    padding: 0;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  .skill {
+    width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .skill h2 {
+    font-size: 28px;
+  }
+
+  .p1, .p2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .skills img {
+    width: 70%;
+    padding-bottom: 20px;
+  }
+
+  .skills-wrapper h1 {
+    font-size: 36px;
+
+  }
+
+  .works-wrapper {
+    padding: 0;
+  }
+
+  .works-wrapper h1 {
+    font-size: 36px;
+  }
+
+  .works-contents {
+    padding: 100px 0;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .works-contents img {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .contact-wrapper h1 {
+    font-size: 36px;
+    padding-bottom: 100px;
+  }
+
+  .contact-wrapper p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  .mail {
+    padding: 30px 0 80px;
+  }
+
+  .mail-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .menu {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    z-index: 100;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="port.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       
+        <div class="container">
+            <div class="image src1"></div>
+            <div class="image src2"></div>
+            <div class="image src3"></div>
+            <div class="image src4"></div>
+            <div class="image src5"></div>
+          </div>
+        <div class="name">
+            <h1>
+                ASUKA
+            </h1>
+            <p>
+                portfoliosite
+            </p>
+        </div>
+
+        <div class="hamburger" id="hamburger">☰</div>
+
+
+        <div class="menu-overlay" id="menu">
+            <ul class="menu-list">
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#works">WORKS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+    </header>
+
+    <div class="about-wrapper" id="about">
+        <h1>ABOUT</h1>
+        <div class="profile">
+            <img src="S__22257935.jpg">
+            <div class="profile-name">
+                <h2>ASUKA(27)</h2>
+            <p>東京在住/主婦</p>
+            </div>
+            <div class="profile-text">
+                <p>
+                   私はずっとフリーターとして飲食業や接客業に携わっていましたが、結婚・妊娠を機に退職しました。もともと中学生の頃からブログの編集をすることが好きで、文章やデザインを工夫することに楽しさを感じていました。</br></br>
+                   子供が産まれてからは「家でできる仕事」「やりがいのある仕事」を探す中で、知人の影響を受けてWeb制作に興味を持ち、独学で学び始めました。現在は、子育てと両立しながら、好きなこと・楽しいことを仕事にできることにやりがいを感じています</br></br>
+                   これからも学び続けながら、見た人が「使いやすい」「心地いい」と感じるようなWebサイトを作っていきたいです。
+                </p>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="skills-wrapper" id="skills">
+        <h1>SKILLS</h1>
+        <div class="skills">
+            <div class="skill">
+                <h2>Coding</h2>
+                <p class="p1">正確で柔軟な<span>コーディング</span></p>
+                <img src="プログラムアイコン.svg">
+                <p class="p2">
+                    ご相談いただいた方のご要望をしっかりとヒアリングし、意図を汲み取ったコーディングを心がけています。
+                    HTML/CSSをベースに、細かな調整を加えながら、見た目だけでなく使いやすさにも配慮した実装を行います。
+                    レスポンシブにも対応しており、スマートフォン・タブレットでも快適に閲覧できるデザインを実装します。
+                </p>
+
+            </div>
+            <div class="skill">
+               <h2>Design</h2>
+               <p class="p1">ヒアリングに基づいた<span>デザイン</span></p>
+               <img src="紙とペンのアイコン素材.svg">
+               <p class="p2">
+                 レイアウトや配色、フォントサイズ、余白のバランスを考え見やすく使いやすいデザインを意識しております。
+                 デザインの意図を正しく反映するため、細部までこだわりながら実装を進めていきます。
+               </p>
+           </div>
+         </div>
+    </div>
+
+    <div class="works-wrapper" id="works">
+        <h1>WORKS</h1>
+
+        <div class="works-contents">
+            <a href="01 write/practice.html">
+                <img src="port1.jpg">
+            </a>
+
+            <a href="02 PAS-SOL/pas-pol.html">
+                <img src="port2.jpg">
+            </a>
+
+            <a href="03 fashion/fashion.html">
+                <img src="port3.jpg">
+            </a>
+
+            <a href="04 flower/index.html">
+                <img src="port4.jpg">
+            </a>
+
+            <a href="05 colorful/index.html">
+                <img src="port5.jpg">
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="contact-wrapper" id="contact">
+        <h1>CONTACT</h1>
+        <p>お仕事のご依頼・ご相談がありましたら、<br>
+        下のボタンからお気軽にご連絡ください。</p>
+        <div class="mail">
+        <a href="mailto:ysr0can@gmail.com" class="mail-button">
+            <i class="fas fa-envelope"></i> メールを送る
+
+        </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ASUKA. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menu = document.getElementById('menu');
+      
+        hamburger.addEventListener('click', () => {
+          menu.classList.toggle('active');
+          hamburger.classList.toggle('active'); 
+        });
+      </script>
+
+
+
+</body>
+</html>
