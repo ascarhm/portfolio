@@ -1,146 +1,340 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="port.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="flower.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>FLOWER</title>
 </head>
 <body>
     <header>
-       
-        <div class="container">
-            <div class="image src1"></div>
-            <div class="image src2"></div>
-            <div class="image src3"></div>
-            <div class="image src4"></div>
-            <div class="image src5"></div>
-          </div>
-        <div class="name">
-            <h1>
-                ASUKA
-            </h1>
-            <p>
-                portfoliosite
-            </p>
+        <div class="header-logo">
+            <img src="logo-64a9e08571ea8941694f2828e0aa1253e037e5273c3cfa37a457430294c33951.png">
         </div>
-
-        <div class="hamburger" id="hamburger">☰</div>
-
-
-        <div class="menu-overlay" id="menu">
-            <ul class="menu-list">
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#skills">SKILLS</a></li>
-              <li><a href="#works">WORKS</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </div>
     </header>
 
-    <div class="about-wrapper" id="about">
-        <h1>ABOUT</h1>
-        <div class="profile">
-            <img src="img/profile.jpg">
-            <div class="profile-name">
-                <h2>ASUKA(27)</h2>
-            <p>東京在住/主婦</p>
-            </div>
-            <div class="profile-text">
-                <p>
-                   私はずっとフリーターとして飲食業や接客業に携わっていましたが、結婚・妊娠を機に退職しました。もともと中学生の頃からブログの編集をすることが好きで、文章やデザインを工夫することに楽しさを感じていました。</br></br>
-                   子供が産まれてからは「家でできる仕事」「やりがいのある仕事」を探す中で、知人の影響を受けてWeb制作に興味を持ち、独学で学び始めました。現在は、子育てと両立しながら、好きなこと・楽しいことを仕事にできることにやりがいを感じています</br></br>
-                   これからも学び続けながら、見た人が「使いやすい」「心地いい」と感じるようなWebサイトを作っていきたいです。
-                </p>
+    <div class="lead">
+        <h1 class="heading">
+            暮らしを変える、 たっぷりの花</br>
+            送料込み2,200円。
+        </h1>
+        <p class="lead-p">
+            花を飾ると、暮らしがもっと好きになる</br>
+            だからFLOWERは、かわいくてうきうきするような花を、ふだん使いできる価格に。
+        </p>
+    </div>
 
+    <div class="app">
+        <div class="container">
+            <div class="icon">
+                <img src="app_main-68afa5d1168e680371b5f540529cd4eb837df4ce3d64542c8bfb72cd331e30d5.png">
+            </div>
+
+            <h2 class="heading2">
+                理想のお花屋さんを、<br class="br-pc">
+                あなたの手の中に。
+            </h2>
+            <p class="p2">
+                旬の花をぜいたくに使ったこだわりのブーケを毎週販売。かわいいのに、いつも特別価格。新作の入荷はアプリがお知らせ。お家にいながら、たっぷりの花がある暮らし。あなたもはじめませんか？
+            </p>
+            <div class="apps">
+                <a href="#"><img src="badge_appstore-aa5732ead0a2b6b813f0c430a31fca83af568312b80babc176583ec27d7de971.png"></a>
+                <a href="#"><img src="badge_googleplaystore-583c4db9359eb3b8f492696dfe9646409a115dc22ae5a2252aa93627430d8af5.png"></a>
             </div>
             
         </div>
     </div>
 
-    <div class="skills-wrapper" id="skills">
-        <h1>SKILLS</h1>
-        <div class="skills">
-            <div class="skill">
-                <h2>Coding</h2>
-                <p class="p1">正確で柔軟な<span>コーディング</span></p>
-                <img src="img/program-icon.svg">
-                <p class="p2">
-                    ご相談いただいた方のご要望をしっかりとヒアリングし、意図を汲み取ったコーディングを心がけています。
-                    HTML/CSSをベースに、細かな調整を加えながら、見た目だけでなく使いやすさにも配慮した実装を行います。
-                    レスポンシブにも対応しており、スマートフォン・タブレットでも快適に閲覧できるデザインを実装します。
-                </p>
+    <section class="contents bg1">
+        <img src="feature_img01-ec5a4fa540925093856a4600b9282663182201861ed3911f4dffad533dfbb207.jpg" class="contents-img">
+        <div class="contents-text">
+            <h2>廃棄がないから、このボリューム。</h2>
+            <p>お花をたっぷり飾るのに憧れるけど、なかなか手に出ない…。FLOWERは日常的に花を楽しんでほしいから、オンラインで限定数の売り切り。花の廃棄を生まない仕組みで、ボリュームたっぷりなのに手に取りやすい価格を実現しました。</p>
+        </div>
+    </section>
 
+    <section class="contents reverse bg2">
+        <img src="feature_img02-73bb336631873b3edbb4e57f40a89a6ff353ff0d0b94a5feca71457431d5d127.jpg" class="contents-img">
+        <div class="contents-text">
+            <h2>かわいいブーケだけ。</h2>
+            <p>季節やトレンドに合わせてセレクトした花を束ねてお届け。ポピュラーな花はもちろん、はじめて見るような個性的なものも。あなたの「かわいい！」を見つけてほしいから、さまざまな雰囲気のブーケをご用意しています。</p>
+        </div>
+    </section>
+
+   <section class="contents bg3">
+    <img src="feature_img03-3b55fd1033c0d74d2c0a7eb96e18b021b26f5dd9c26818ce0644d510472f76b5.jpg" class="contents-img">
+    <div class="contents-text">
+        <h2>市場からすぐお届け。だから新鮮。</h2>
+        <p>FLOWERのブーケは、市場で仕入れてすぐに販売。そして、花がたっぷりと水を吸ったタイミングで発送しています。新鮮な花をお楽しみください。</p>
+    </div>
+   </section>
+
+    <div class="bouquet">
+        <div class="bouquet-txt">
+            <h2>販売中のブーケ</h2>
+            <p>毎日新作のブーケ入荷中！</p>
+        </div>
+        <div class="bouquet-list">
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_8b627dcb-c406-46ad-9d23-cf20d1fbec38.jpg" alt="画像1">
+                    <p class="caption">ホワイトピンクのおまかせ芍薬ブーケ</p>
+
+                </div>
+            </a>
+                
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_0e528926-6bbc-4792-a2a9-7eba66e55032.jpg" alt="画像2">
+                    <p class="caption">コーラルピンクのおまかせブーケ</p>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_3cd1dfd7-8d5c-4d84-af28-4b8b74da8dd9.jpg" alt="画像3">
+                    <p class="caption">色が変化する芍薬</p>
+
+                </div>
+            </a>
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_5a31b861-0c7c-4d37-8d00-39cab3391959.jpg" alt="画像4">
+                    <p class="caption">季節の枝物「スノーボール」</p>
+
+                </div>
+            </a>
+                
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_83559238-8811-4579-80cd-f2e6881f58e8.jpg" alt="画像5">
+                    <p class="caption">早咲き芍薬とピンクローズのおまかせ</p>
+
+                </div>
+            </a>
+
+                
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_e4b70740-cc2d-450c-bbac-2ed34cdc6278.jpg" alt="画像6">
+                    <p class="caption">幸せを呼ぶすずらん</p>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_721a9407-7a8c-4455-8110-5c12c7e6a403.jpg" alt="画像7">
+                    <p class="caption">おまかせピンクラズベリーマム</p>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_304be576-d263-41a8-808c-763bdba96cd4.jpg" alt="画像8">
+                    <p class="caption">【産直】今井ゆり園のブルーリリー</p>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_b1488a89-8a8c-42d9-8f39-815eee3ce1ad.jpg" alt="画像9">
+                    <p class="caption">母の日に贈る、ピンクのカーネーション</p>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="bouquet-item">
+                    <img src="medium_f122fb20-51b3-465d-868a-3e2c794f1512.jpg" alt="画像10">
+                    <p class="caption">ピンクアソート「芍薬」</p>
+
+                </div>
+            </a>
+        
+        </div>
+
+        <div class="bouquet-a">
+            <a href="#" class="more">
+                商品をもっと見る
+            </a>
+        </div>
+    </div>
+
+    <div class="enjoy">
+        <h2>FLOWERの楽しみ方</h2>
+        <div class="enjoy-contents">
+            <div class="enjoy-c">
+                <img class="photo"  src="howtouse_thumb01-bfe880edcc99b923b1e80aae344858bb9658d24cc7778028652bb76d97dc8058.png">
+                <h3>アプリで注文</h3>
+                <p>好みのブーケを選んで注文。新しいブーケが販売されたら、アプリが通知。いつでもどこでも、かんたんにお花を買えちゃいます。</p>
             </div>
-            <div class="skill">
-               <h2>Design</h2>
-               <p class="p1">ヒアリングに基づいた<span>デザイン</span></p>
-               <img src="img/pepar-pen-icon.svg">
-               <p class="p2">
-                 レイアウトや配色、フォントサイズ、余白のバランスを考え見やすく使いやすいデザインを意識しております。
-                 デザインの意図を正しく反映するため、細部までこだわりながら実装を進めていきます。
-               </p>
-           </div>
-         </div>
+
+            <div class="enjoy-c">
+                <img class="arrow" src="icon_arrow-8e5fdc46a498870d498384ed21b953eb270769be0d5d0f91e0311b0e6abace21.png">
+            </div>
+
+            <div class="enjoy-c">
+                <img class="photo" src="howtouse_thumb02-0969967d693406fbab17fc81215b48c1180db3134dda96c289db04690c89b641.png">
+                <h3>お家に届く</h3>
+                <p>宅配便でご自宅までお届けします。箱を開けたらかわいいお花にうっとり。受け取ったら、なるべく早く水につけてあげましょう。</p>
+               
+            </div>
+
+            <div class="enjoy-c">
+                <img class="arrow" src="icon_arrow-8e5fdc46a498870d498384ed21b953eb270769be0d5d0f91e0311b0e6abace21.png">
+            </div>
+
+            <div class="enjoy-c">
+                <img class="photo" src="howtouse_thumb03-3f880444f1dbe3ed48fc8bdde041121546439ba749fe878d608169900e0ca54b.png">
+                <h3>FLOWERのある暮らし</h3>
+                <p>お気に入りの場所はもちろん、色々な場所に分けて飾るのも。あなただけの「FLOWERのある暮らし」を楽しんで！</p>
+            </div>
+        </div>
     </div>
 
-    <div class="works-wrapper" id="works">
-        <h1>WORKS</h1>
+    <div class="flower-life">
+        <h2>みんなの 「FLOWERのある暮らし」</h2>
+        <div class="inst">
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post01-bf81d1f9d44f1ab0e9b32d21d16bfe864fd672a32dd649cc4db1977f1c306c4a.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
 
-        <div class="works-contents">
-            <a href="01_write/practice.html">
-                <img src="img/port1.jpg">
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post02-84fc4efea25500fc02bbd5d6195b76098860959f5d6290dc908fd6479e2399d4.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
+
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post03-e152baa473b96a153a4d8b7f3987b5369dcfce5e53e541bf9bf888d0e1e5a37d.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
+
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post04-b95fb662a83f9fe6ee782d775383bab323b35da2e92a37f72f7dd532e99eef20.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
+
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post05-6adf69e03264087c99c7898bd9d7670deb78de938d0674c720be00e93ccf12de.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
+
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post06-4e0f9e713b6054486a4c616ecf9d3d209b7599980471d907d7db095c4fdcd105.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
+
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post07-ec0e6c8c6d484650e8153d940e984456f15c128b627caf5d2dd312803d7dbb6f.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
+
+            <div class="inst-item">
+                <a href="#">
+                <img src="instagram_post08-5614e7c0303887cc3007b6e1c72b193182e95dbd8ca9b748f10eacaa74c092cb.jpg" class="ip">
+                <img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png" class="ii">
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="bouquet-a">
+            <a href="#" class="more">
+                #flower_isの投稿をもっと見る
             </a>
+        </div>
+    </div>
 
-            <a href="02_PAS-SOL/pas-pol.html">
-                <img src="img/port2.jpg">
-            </a>
+    <div class="logo-list">
+        <div class="logo">
+            <img src="media_Vogue-57feb42260d34e40d92cbcf5d43a85125c249e02bac30b4b814b054384b72283.png">
+            <img src="media_anan-eeeaca52acc321500aa887d19ad0331f4575308478abf8846ca2d00083afacb6.png">
+            <img src="media_SPUR-454cca947f602345c3ead4c6498cb83c084819630ba3102779939bd927ee5bad.png">
+            <img src="media_BRUTUS-46c14b90525bf96bc625e87db8faab7a139d36506afb7bc2293c00241c270f90.png">
+            <img src="media_ELLEDECOR-9954d6693b0141ffcdf3b3dae6ad7dd26df8f2a46f071df968682975b8643caa.png">
+        </div>
+    </div>
 
-            <a href="03_fashion/fashion.html">
-                <img src="img/port3.jpg">
-            </a>
+    <div class="qa">
+        <div class="qa-txt">
+            <h2>よくある質問</h2>
+            <h3>Q. FLOWERのブーケはなぜお得なのですか？</h3>
+            <p>通常、お花は仕入れ価格の3〜5倍ほどで販売されると言われています。店舗の運営や、廃棄される花のコストが含まれることが主な理由。日常的にたっぷりの花を楽しんでほしいから、FLOWERのブーケはオンラインで限定数の売り切り。花の廃棄を生まない仕組みで、手に取りやすい価格を実現しています。</p>
 
-            <a href="04_flower/index.html">
-                <img src="img/port4.jpg">
-            </a>
+            <h3>Q. お花が枯れて届いた場合はどうなりますか？</h3>
+            <p>FLOWERでは到着までに枯れてしまったり、破損してしまったお花については返金またはクーポンにて補償しております。お花の写真をご用意のうえ、アプリの「お問い合わせ」よりお気軽にご連絡ください。</p>
 
-            <a href="05_colorful/index.html">
-                <img src="img/port5.jpg">
-            </a>
+            <h3>Q. 決済方法は何がありますか？</h3>
+            <p>クレジットカード（VISA、MasterCard、JCB、American Express、Diners Club、DISCOVER）、PayPayに対応しております。
+            </p>
 
+            <h3>Q. 対象外のエリアはありますか？</h3>
+            <p>沖縄、離島エリアは現在対象外となっております。ご了承くださいませ。</p>
         </div>
 
     </div>
 
-    <div class="contact-wrapper" id="contact">
-        <h1>CONTACT</h1>
-        <p>お仕事のご依頼・ご相談がありましたら、<br>
-        下のボタンからお気軽にご連絡ください。</p>
-        <div class="mail">
-        <a href="mailto:ysr0can@gmail.com" class="mail-button">
-            <i class="fas fa-envelope"></i> メールを送る
+    <div class="app2">
+        <div class="app-logo">
+            <img src="logo-64a9e08571ea8941694f2828e0aa1253e037e5273c3cfa37a457430294c33951.png">
 
-        </a>
         </div>
+        
+        <p>かわいいが届くお花便</p>
+
+        <div class="apps2">
+            <a href="#">
+            <img src="badge_appstore-aa5732ead0a2b6b813f0c430a31fca83af568312b80babc176583ec27d7de971.png">
+            </a>
+            <a href="#">
+            <img src="badge_googleplaystore-583c4db9359eb3b8f492696dfe9646409a115dc22ae5a2252aa93627430d8af5.png">
+            </a>
+        </div>
+
     </div>
 
     <footer>
-        <p>&copy; 2025 ASUKA. All Rights Reserved.</p>
+        <div class="footer-list">
+            <ul>
+                <li><a href="#">よくある質問</a></li>
+                <li><a href="#">読みもの</a></li>
+                <li><a href="#">特集</a></li>
+                <li><a href="#">プライバシーポリシー</a></li>
+                <li><a href="#">利用規約</a></li>
+                <li><a href="#">特定商法取引に関する表記</a></li>
+                <li><a href="#">利用者情報の外部送信</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+                <li><a href="#">運営会社</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-logo">
+            <a href="#"><img src="icon_instagram-cad68eaf4f8d5dffbc6aab90c98858e52b7810fb96348eef73df926171a3648d.png"></a>
+            <a href="#"><img src="icon_x-83acfa48f1d9cea7ee4b57695d88f5a2c70cec42d2bd7475ca18858d0c6b6a16.png"></a>
+            <a href="#"><img src="icon_note-c7f6c004e07148e978c001d827adcfe6c1b23d7b1da968a290f62a17ebdf073c.png"></a>
+        </div>
+
+        <p>Copyright FLOWER Inc. All Rights Reserved.</p>
     </footer>
-
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const menu = document.getElementById('menu');
-      
-        hamburger.addEventListener('click', () => {
-          menu.classList.toggle('active');
-          hamburger.classList.toggle('active'); 
-        });
-      </script>
-
-
 
 </body>
 </html>

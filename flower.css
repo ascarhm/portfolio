@@ -1,0 +1,790 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+ list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content:'';
+   content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #cccccc;
+   margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+header {
+    background-image: url(header_bg-c9ed7b2e572e200d27cae1b42010563170fdc48ff31e206f9e2c94712ee4773c.jpg);
+    height: 830px;
+    background-size: cover;
+    position: relative;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-logo img {
+    width: 230px;
+    height: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lead {
+    text-align: center;
+    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.025em;
+    color: #3f434a;
+}
+
+.heading {
+    font-size: 29px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    line-height: 46px;
+}
+
+.lead-p {
+    font-size: 15px;
+    padding-bottom: 70px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.app {
+    background-color: #F6F5F1;
+    
+
+}   
+
+.heading2 {
+    font-size: 26px;
+    line-height: 46px;
+    padding-bottom: 30px;
+    padding-top: 130px;
+    color: #3f434a;
+    letter-spacing: 0.025em;
+}
+
+.p2 {
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: 40px;
+    color: #3f434a;
+    letter-spacing: 0.025em;
+}
+
+.apps img {
+    width: 165px;
+    padding-right: 15px;
+}
+
+.icon img {
+    width: 360px;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+.icon {
+    float: right;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+.apps {
+    padding-bottom: 130px;
+    
+}
+
+.contents {
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.contents-img {
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.contents-text {
+    width: 300px;
+}
+
+.contents h2 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    line-height: 35px;
+}
+
+.contents p {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.bg1 {
+    background-color: #EBDCD6;
+    background-image: url(feature_img01-ec5a4fa540925093856a4600b9282663182201861ed3911f4dffad533dfbb207.jpg);
+    background-size: 700px 440px;
+    background-repeat: no-repeat;
+    background-position: left;
+    justify-content: flex-end;
+}
+
+.bg1 .contents-text {
+    margin-right: 300px;
+}
+
+.bg2 {
+    background-color: #D8D0E2;
+    background-image: url(feature_img02-73bb336631873b3edbb4e57f40a89a6ff353ff0d0b94a5feca71457431d5d127.jpg);
+    background-size: 700px 440px;
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: flex-start;
+}
+
+.bg2 .contents-text {
+    margin-left: 300px;
+}
+
+.bg3 {
+    background-color: #C9D4D9;
+    background-image: url(feature_img03-3b55fd1033c0d74d2c0a7eb96e18b021b26f5dd9c26818ce0644d510472f76b5.jpg);
+    background-size: 700px 440px;
+    background-repeat: no-repeat;
+    background-position: left;
+    justify-content: flex-end;
+}
+
+.bg3 .contents-text {
+    margin-right: 300px;
+}
+
+
+.bouquet {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #F6F5F1;
+    
+}
+
+.bouquet-list {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.bouquet-list::-webkit-scrollbar {
+    background-color: #F6F5F1;
+}
+
+.bouquet-list a {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 10px;
+    position: relative;
+}
+
+
+.bouquet-txt {
+    letter-spacing: 0.025em;
+}
+
+.bouquet-txt h2 {
+    font-size: 26px;
+    line-height: 46px;
+}
+
+.bouquet-txt p {
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+
+.bouquet-item {
+    position: relative;
+    display: inline-block;
+}
+
+.bouquet-item img {
+    height: 415px;
+    width: 100%;
+    
+
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    word-break: break-word;
+    white-space: normal;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.more {
+    display: inline-block;
+    padding: 20px 100px;
+    text-decoration: none;
+    color: rgb(63, 67, 74);
+    font-weight: 700;
+    border-radius: 30px;
+    border: 2px solid rgb(63, 67, 74);
+    font-size: 14px;
+    
+
+}
+
+.enjoy {
+    padding: 65px 0;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    
+}
+
+.enjoy h2 {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.photo {
+    width: 150px;
+}
+
+.arrow {
+    width: 70px;
+    height: 70px;
+    padding: 100px 30px;
+}
+
+.enjoy-contents {
+    display: flex;
+    overflow-x: auto;
+}
+
+.enjoy-contents::-webkit-scrollbar {
+    background-color: white;
+}
+
+
+
+.enjoy-c h3 {
+    padding: 25px 0;
+}
+
+.enjoy-c p {
+    text-align: left;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.flower-life {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #F6F5F1;
+    padding: 65px 0;
+}
+
+.flower-life h2 {
+    font-size: 26px;
+    padding-bottom: 50px;
+}
+
+.inst {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+
+}
+
+.inst-item {
+    position: relative;
+}
+
+.ip {
+    margin-bottom: 20px;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+
+.ii {
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.logo-list {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.logo::-webkit-scrollbar {
+    color: white;
+
+}
+
+.logo img{
+    width: 150px;
+    padding-right: 30px;
+}
+
+.qa {
+    padding: 50px 0 35px 0;
+    background-color: #F6F5F1;
+    text-align: center;
+}
+
+.qa-txt {
+    width: 900px;
+    margin: 0 auto;
+    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.qa h2 {
+    font-size: 26px;
+    padding-bottom: 40px;
+}
+
+.qa h3 {
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 20px;
+    line-height: 32px;
+}
+
+.qa p {
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 30px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    font-weight: 400;
+    color: rgb(63, 67, 74);
+}
+
+.app2 {
+    background-image: url(bg_app_bottom-de5cf589e38bd2038e4a7575fc900c805be8f4a1d5ad9a07530c6c9ec2d1bd9e.jpg);
+    background-size: cover;
+    height: 525px;
+    position: relative;
+    text-align: center;
+}
+
+.app-logo {
+
+}
+
+.app-logo img {
+    width: 180px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.app2 p {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top: 61%;
+    left: 44%;
+}
+
+.apps2 img {
+    width: 165px;
+    padding-right: 10px;
+}
+
+.apps2 {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+}
+
+footer {
+    background-color: #3F4349;
+    padding: 40px 0;
+}
+
+.footer-list {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-list ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list li {
+    font-size: 16px;
+    padding-right: 30px;
+    list-style: none;
+
+}
+
+.footer-list li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-logo {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.footer-logo img {
+    width: 30px;
+    padding-right: 30px;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 600px;
+        background-position: center;
+    }
+
+    .header-logo img {
+       width: 170px;
+       height: 110px;
+    }
+
+    .icon {
+        float: none;
+    }
+
+    .icon img {
+        padding-left: 0;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .br-pc {
+        display: none;
+    }
+
+    .heading2,.p2,.apps {
+        text-align: center;
+        
+    }
+
+    .p2 {
+        text-align: left;
+    }
+
+    .heading2 {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    .apps {
+        padding-bottom: 55px;
+    }
+
+    html,body {
+        overflow-x: hidden;
+    }
+
+    .contents {
+        background-image: none;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .contents h2 {
+        text-align: center;
+    }
+
+    .contents-text {
+        width: 90%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: left;
+    }
+
+    .bg2 .contents-text {
+        margin-left: auto;
+    }
+
+    .contents-img {
+        display: block;
+        height: 320px;
+        width: 100%;
+        margin: 0 auto;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .bouquet-list img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .enjoy {
+       width: 100%;
+    }
+
+    .enjoy h2 {
+        font-size: 22px;
+        color: rgb(63, 67, 74);
+    }
+
+    .enjoy-contents {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding: 0px 75px;
+    }
+
+    .photo {
+        width: 150px;
+    }
+
+    .enjoy-c h2,.enjoy-c p {
+        width: 260px;
+    }
+
+    .enjoy-c p {
+        letter-spacing: 1px;
+        opacity: 0.8;
+    }
+
+    .flower-life h2 {
+        font-size: 22px;
+    }
+
+    .inst {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 16px;
+        padding: 0 16px 30px;
+        box-sizing: border-box;
+        
+    }
+
+    .inst-item {
+        padding: 0px 5px;
+    }
+
+    .ii {
+        width: 25px;
+        left: 10px;
+    }
+
+    .logo {
+        display: flex;
+        overflow-x: auto;
+        gap: 16px;
+        padding: 0 16px;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .qa-txt {
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+    
+    .qa-txt h2 {
+        font-size: 22px;
+    }
+
+    .qa-txt h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .qa-txt p {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+
+   .app-logo {
+    display: none;
+   }
+
+
+   .app2 {
+    background-image: url(bg_app_bottom-de5cf589e38bd2038e4a7575fc900c805be8f4a1d5ad9a07530c6c9ec2d1bd9e.jpg);
+    background-size: cover;
+    height: 325px;
+   }
+
+   .app2 p {
+    display: none;
+   }
+
+   .apps2 {
+    display: none;
+   }
+
+   .footer-list {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+   }
+
+   .footer-list ul{
+    display: block;
+   
+
+   }
+
+   .footer-list li {
+    padding-bottom: 30px;
+    text-align: left;
+
+   }
+
+   .footer-logo {
+    text-align: left;
+    padding-left: 20px;
+    
+   }
+
+   .footer-logo img {
+    padding-right: 10px;
+   }
+
+ 
+   footer p {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 13px;
+   }
+
+
+}
