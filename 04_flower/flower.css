@@ -173,7 +173,7 @@ header {
 .icon img {
     width: 360px;
     padding-top: 80px;
-    padding-left: 35px;
+    padding-left: 30px;
 }
 
 .icon {
@@ -576,13 +576,14 @@ footer p {
 
     .icon {
         float: none;
-        text-align: center;
     }
 
     .icon img {
-        width: 100%;
-        max-width: 400px;
-        padding-top: 40px;
+        padding-left: 0;
+    }
+
+    .container {
+        text-align: center;
     }
 
     .br-pc {
@@ -664,7 +665,7 @@ footer p {
         flex-wrap: nowrap;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        padding: 0px 120px;
+        padding: 0px 75px;
     }
 
     .photo {
@@ -734,6 +735,7 @@ footer p {
    .app-logo {
     display: none;
    }
+
 
    .app2 {
     background-image: url(bg_app_bottom-de5cf589e38bd2038e4a7575fc900c805be8f4a1d5ad9a07530c6c9ec2d1bd9e.jpg);
