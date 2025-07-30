@@ -105,6 +105,11 @@ html{
   scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Playfair Display', 'Noto Sans JP', sans-serif;
+}
+
+
 
 header {
     position: relative;
