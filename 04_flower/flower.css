@@ -564,9 +564,15 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
+
+
     header {
         height: 600px;
         background-position: center;
+    }
+
+    .p .h2 {
+        font-family: "Hiragino Kaku Gothic ProN";
     }
 
     .header-logo img {
