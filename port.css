@@ -449,6 +449,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+  .p {
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
   .container {
     height: 400px;
   }
@@ -541,7 +545,7 @@ footer {
     text-align: center;
     gap: 20px; /* ← 間隔を調整するのに便利 */
     padding: 100px 0;
-    
+    width: 90%;
   }
    
 
