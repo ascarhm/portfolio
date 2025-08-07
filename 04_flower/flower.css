@@ -101,9 +101,6 @@ input, select {
   vertical-align:middle;
 }
 
-body, p, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Noto Sans JP', sans-serif;
-}
 
 header {
     background-image: url(header_bg-c9ed7b2e572e200d27cae1b42010563170fdc48ff31e206f9e2c94712ee4773c.jpg);
