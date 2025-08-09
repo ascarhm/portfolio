@@ -102,6 +102,8 @@ input, select {
 }
 
 
+
+
 header {
     background-image: url(header_bg-c9ed7b2e572e200d27cae1b42010563170fdc48ff31e206f9e2c94712ee4773c.jpg);
     height: 830px;
@@ -571,6 +573,16 @@ footer p {
         height: 600px;
         background-position: center;
     }
+
+    .h2 {
+        font-family: "Hiragino Kaku Gothic ProN";
+    }
+
+    .p {
+        font-family: "Hiragino Kaku Gothic ProN;
+    }
+
+   
 
     .header-logo img {
        width: 170px;
