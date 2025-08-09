@@ -101,7 +101,9 @@ input, select {
   vertical-align:middle;
 }
 
-
+body {
+    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 
 header {
@@ -573,15 +575,6 @@ footer p {
         height: 600px;
         background-position: center;
     }
-
-    .h2 {
-        font-family: "Hiragino Kaku Gothic ProN";
-    }
-
-    .p {
-        font-family: "Hiragino Kaku Gothic ProN;
-    }
-
    
 
     .header-logo img {
